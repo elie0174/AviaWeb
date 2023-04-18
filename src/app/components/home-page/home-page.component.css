@@ -1,0 +1,137 @@
+.BackroundImage {
+   position:relative;
+   background-color: #fde3e9;
+}
+.youtubevidtext{
+   text-align: left;
+   font-style: italic;
+}
+
+.carousel-caption{
+   position:absolute;
+   color: palevioletred;
+   font-size: 100px;
+   font-style: italic;
+   mix-blend-mode:color-dodge;
+   top: 60%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   z-index: 1;
+}
+
+.SpotifyPic{
+   position: absolute;
+   color: green;
+   font-size: 80px;
+   font-style: italic;
+   top: 50%;
+   right:80%;
+   transform: translate(-50%, -50%);
+   z-index: 5;
+}
+ .spotifyLink {
+   position: absolute;
+   color: green;
+   font-size: 80px;
+   font-style: italic;
+   top: 60%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   z-index: 5;
+ }
+ .InstagramLink {
+   position: absolute;
+   color: rgb(160, 104, 113);
+   font-size: 80px;
+   font-style: italic;
+   top: 70%;
+   left: 50%;
+   z-index: 3;
+   transform: translate(-50%, -50%);
+ }
+
+ .TiktokLink {
+   position: absolute;
+   color: black;
+   font-size: 80px;
+   font-style: italic;
+   top: 80%;
+   left: 50%;
+   z-index: 2;
+   transform: translate(-50%, -50%);
+   
+ }
+
+
+ @media only screen and (max-width: 768px) {
+   .carousel-caption{
+      position:absolute;
+      color: palevioletred;
+      font-size: 25px;
+      font-style: italic;
+      mix-blend-mode:color-dodge;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+   }
+   .TiktokLink {
+      position: absolute;
+      color: black;
+      font-size: 80px;
+      font-style: italic;
+      width: 10;
+      height: 10;
+      top: 60%;
+      left: 45%;
+      z-index: 2;
+      transform: translate(-20%, -20%);
+    }
+    .InstagramLink {
+      position: absolute;
+      color: rgb(160, 104, 113);
+      font-size: 80px;
+      font-style: italic;
+      top: 50%;
+      left: 80%;
+      transform: translate(-50%, -50%);
+    }
+    .spotifyLink {
+      position: absolute;
+      color: green;
+      font-size: 80px;
+      font-style: italic;
+      top: 50%;
+      left: 20%;
+      transform: translate(-50%, -50%);
+      z-index: 5;
+    }
+    .SpotifyPic{
+      position: absolute;
+      color: green;
+      font-size: 80px;
+      font-style: italic;
+      top: 50%;
+      left: 3%;
+      transform: translate(-50%, -50%);
+      z-index: 5;
+   }
+    .btn-lg {
+      padding: 10px 20px;
+      font-size: 15px;
+      border-radius: 10px;
+      width:50%;   
+  }
+
+   }
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {
+   height: 450px
+}
+
+/* Set gray background color and 100% height */
+.sidenav {
+   padding-top: 20px;
+   background-color: #f1f1f1;
+   height: 100%;
+}
